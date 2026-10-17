@@ -506,3 +506,62 @@ footer a {
     border-radius: 12px;
   }
 }
+
+
+/* LOGO DAN VISUAL RESMI HERVELA */
+
+header .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #f5f1e8;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+
+.site-logo {
+  display: block;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.featured-section {
+  background:
+    radial-gradient(ellipse at 85% 15%, #253b69, transparent 55%),
+    linear-gradient(135deg, #10182b, #0b1020);
+  border-top: 1px solid rgba(212, 175, 55, 0.28);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.28);
+}
+
+.featured-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 26px 0;
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  border-radius: 14px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+}
+
+.featured-content .section-tag {
+  color: #e7c66a;
+}
+
+@media (max-width: 600px) {
+  .site-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  header .logo {
+    gap: 9px;
+    font-size: 0.95rem;
+  }
+
+  .featured-banner {
+    border-radius: 9px;
+  }
+}
